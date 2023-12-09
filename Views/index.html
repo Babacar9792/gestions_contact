@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../Public/css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <div class="container">
+        <div class="register">
+            <h1>Ajouter un nouveau contact</h1>
+            <form>
+                <div>
+                    <label for="prenom">Prenom</label>
+                    <input type="text" required id="prenom" placeholder="Saisir le prenom du contact">
+                </div>
+                <div>
+                    <label for="nom">Nom</label>
+                    <input type="text" required id="nom" placeholder="Saisir le nom du contact">
+                </div>
+                <div>
+                    <label for="categorie">Categorie</label>
+                    <select name="" id="" required>
+                        <option value="1">Categorie 1</option>
+                        <option value="2">Categorie 2</option>
+                        <option value="3">Categorie 3</option>
+                        <option value="4">Categorie 4</option>
+                    </select>                    
+                </div>
+                <div>
+                    <button>Ajouter</button>                   
+                </div>
+                
+            </form>
+        </div>
+
+        <main>
+
+            <div class="head-list">
+                <div>
+                    <label for="filtre">Filtrer la liste des contacts</label>
+                    <select name="" id="filtre">
+                        <option value="">Tout</option>
+                        <option value="prenom">prenom</option>
+                        <option value="nom">nom</option>
+                        <option value="categorie">categorie</option>
+                    </select>
+                </div>
+                <div>
+                    <button type="button" id="btn_delete">Supprimer</button>
+                </div>
+            </div>
+            <div class="list">
+               <table>
+                <thead>
+                    <tr>
+                        <th></th>
+                        <th>Prenom</th>
+                        <th>Nom</th>
+                        <th>categorie</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                            <input type="checkbox" name="" id="">
+                        </td>
+                        <td>1</td>
+                        <td>2</td>
+                        <td>3</td>
+                        <td>4</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="checkbox" name="" id="">
+                        </td>
+                        <td>5</td>
+                        <td>6</td>
+                        <td>7</td>
+                        <td>8</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="checkbox" name="" id="">
+                        </td>
+                        <td>9</td>
+                        <td>10</td>
+                        <td>11</td>
+                        <td>12</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="checkbox" name="" id="">
+                        </td>
+                        <td>9</td>
+                        <td>10</td>
+                        <td>11</td>
+                        <td>12</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="checkbox" name="" id="">
+                        </td>
+                        <td>9</td>
+                        <td>10</td>
+                        <td>11</td>
+                        <td>12</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="checkbox" name="" id="">
+                        </td>
+                        <td>9</td>
+                        <td>10</td>
+                        <td>11</td>
+                        <td>12</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="checkbox" name="" id="">
+                        </td>
+                        <td>9</td>
+                        <td>10</td>
+                        <td>11</td>
+                        <td>12</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="checkbox" name="" id="">
+                        </td>
+                        <td>9</td>
+                        <td>10</td>
+                        <td>11</td>
+                        <td>12</td>
+                    </tr>
+                </tbody>
+
+               </table>
+            </div>
+
+        </main>
+    </div>
+
+    <script type="module" src="../Public/js/main.js"></script>
+</body>
+</html>
