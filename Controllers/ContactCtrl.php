@@ -24,7 +24,7 @@ class ContactCtrl
 
             $prenom = $donnees['prenom'];
             $nom = $donnees['nom'];
-            $categorie_id = $donnees['categorie_id'];
+            $categorie_id = $donnees['categorie'];
            
             if (!(isset($prenom) && $prenom) || !(isset($nom) && $nom) || !(isset($categorie_id) && $categorie_id)) {
                echo json_encode(["message" => "Tous les champs sont obligatoires", "status" => false, "data" => []]);

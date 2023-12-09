@@ -11,8 +11,8 @@ class ConnexionDb
     {
         $this->serveur = 'localhost';
         $this->dbname = 'GestionContact';
-        $this->login = "";
-        $this->password = '';
+        $this->login = "root";
+        $this->password = 'CoB7740337812.';
         $this->options = array(
             PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION,
             PDO::ATTR_DEFAULT_FETCH_MODE => PDO::FETCH_ASSOC

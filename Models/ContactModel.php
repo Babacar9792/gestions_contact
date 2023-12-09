@@ -41,7 +41,7 @@ class ContactModel
     public function addContact($prenom, $nom, $categorie_id)
     {
         $this->insertContact($prenom, $nom, $categorie_id);
-        $request = "SELECT contacts.prenom, contacts.nom, categories.libelle from contacts JOIN  categories ON contacts.categorie_id = categories.id ORDER BY contacts.id DESC LIMIT 1";
+        $request = "SELECT contacts.id, contacts.prenom, contacts.nom, categories.libelle from contacts JOIN  categories ON contacts.categorie_id = categories.id ORDER BY contacts.id DESC LIMIT 1";
         $request = $this->connection->prepare($request);
         $request->execute();
         return $request->fetchAll();

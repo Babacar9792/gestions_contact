@@ -31,7 +31,7 @@ body{
     flex-direction: column;
 }
 
-.container .register form{
+.container .register .form{
     width: 90%;
     height: 50%;
     /* border: 0.1em solid; */
@@ -39,7 +39,7 @@ body{
     justify-content: space-evenly;
     align-items: center;
 }
-.container .register form div{
+.container .register .form div{
     width: 20%;
     height: 90%;
     display: flex;
@@ -49,21 +49,21 @@ body{
    
 }
 
-.container .register form div input{
+.container .register .form div input{
     width: 90%;
     border-radius: 0.6rem;
     padding: 0.6rem;
     outline-color: blue;
     
 }
-.container .register form div select{
+.container .register .form div select{
     padding: 0.3em;
     border-radius: 0.6rem;
     width: 90%;
     font-size: 1.3rem;
     
 }
-.container .register form div button{
+.container .register .form div button{
     padding: 0.5rem;
     background-color: green;
     color: white;
@@ -102,9 +102,10 @@ main div{
     align-items: center;
     flex-direction: column;
 }
-.head-list div:first-child select{
+.head-list div:first-child input{
     width: 30%;
     padding: 1rem;
+    border-radius: 0.5rem;
 }
 .head-list div:last-child button{
     padding: 0.8rem;
